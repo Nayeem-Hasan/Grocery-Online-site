@@ -92,12 +92,14 @@
   .header .logo{
     font-size: 25px;
   }
-  .header .shopping-cart{
-    width: 90%;
-  }
   .header .icons div {
     height: 35px;
     width: 35px;
     line-height: 35px;
+  }
+}
+@media (max-width:375px){
+  .header .shopping-cart{
+    width: 90%;
   }
 }
