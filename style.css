@@ -461,8 +461,17 @@ section{
 	box-shadow: var(--box-shadow);
 	background: #fff;
 }
-.blogs .box-container .box img{
+.blogs .box-container .box .overlay:hover{
+	transform: scale(1.03);
+}
+.blogs .box-container .box .overlay{
 	height: 250px;
+	width: 100%;
+	position: relative;
+	transition: .4s;
+}
+.blogs .box-container .box img{
+	height: 100%;
 	width: 100%;
 	object-fit: cover;
 }
@@ -493,6 +502,7 @@ section{
 	color: var(--black);
 	font-size: 22px;
 	padding: 5px 0px;
+	text-transform: capitalize;
 }
 .blogs .box-container .box .content p{
 	line-height: 1.8;
