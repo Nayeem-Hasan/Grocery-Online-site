@@ -9,6 +9,16 @@
     padding: 20px;
   }
 }
+
+@media (max-width: 1130px){
+  .header .logo {
+    font-size: 25px;
+  }
+  .header .navbar a{
+    font-size: 15px;
+    margin: 0 10px;
+  }
+}
 @media (max-width: 950px) {
   #menu-btn{
     display: inline-block;
